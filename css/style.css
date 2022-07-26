@@ -12,13 +12,15 @@ html,
 body {
   height: 100%;
   font-feature-settings: "palt";
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 0%);
+  color: #fff;
   position: relative;
 }
 
 
 body {
   font-size: 17px;
+  
   line-height: 2.7;
   font-family:"游ゴシック体", YuGothic, "ＭＳ 明朝,平成明朝","游ゴシック", "Yu Gothic", "ヒラギノ角ゴ ProN W3", "", "メイリオ", Meiryo, sans-serif,
 ;:
@@ -58,7 +60,13 @@ li {
   }
 }
 
-
+footer {
+  background-color: #333;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+}
 
 
 /*======================================================
@@ -80,12 +88,12 @@ header a {
 }
 
 header .inner {
-  background-color: #ffffff;
+  background-color: #ffffff50;
   position: relative;
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
-  box-shadow: 0px 0px 5px rgba(135, 255, 173, 0.737);
+  box-shadow: 0px 0px 5px rgba(180, 180, 180, 0.394);
   border-radius: 4px;
   margin: 20px;
 }
@@ -121,7 +129,7 @@ header .inner {
   position: absolute;
   width: 100%;
   height: 10px;
-  background-color: rgb(248, 248, 248);
+  background-color: rgba(254, 255, 254, 0.136);
 }
 
 #menu_btn{
@@ -131,7 +139,7 @@ header .inner {
   border-radius: 20px;
   right: 10px;
   top: 7px;
-  background-color: rgb(250, 255, 248);
+  background-color: rgb(78, 214, 47);
   z-index: 30;
   cursor: pointer;
   display: none;
@@ -193,12 +201,20 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
   margin: auto;
 }
 
+footer {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  font-size: 10px;
+}
+
 /* =================================================
 トップページ
 ================================================= */
 .top_eye_catch {
   height: 500px;
-  color: rgb(83, 217, 117);
+  color: rgb(35, 205, 77);
   font-weight: bold;
   background-image: url(../images/usagi.jpg);/* 背景画像 */
   background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
@@ -232,7 +248,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
   font-weight: bold;
   padding-bottom: 5px;
   margin-bottom: 5px;
-  border-bottom: 1px solid rgb(190, 190, 190);
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
 }
 
 a.link_btn{
@@ -240,7 +256,7 @@ a.link_btn{
   font-weight: bold;
   display: block;
   margin: 0px 0;
-  border: 1px solid rgba(38, 38, 38, 0.294);
+  border: 1px solid rgba(0, 0, 0, 0.294);
   padding: 1px;
   text-align: center;
   border-radius: 0px;
@@ -250,8 +266,8 @@ a.link_btn{
 a.link_btn:hover{/* classがlink_btnのaタグのマウスオーバー時 */
   opacity: 1;/* 半透明にならないように上書き */
   border-radius: 0;
-  color: rgba(0, 0, 0, 0.253);
-  background-color: rgba(108, 201, 159, 0.531);
+  color: rgba(255, 235, 235, 0.253);
+  background-color: rgba(71, 255, 58, 0.531);
 }
 
 /* =================================================
