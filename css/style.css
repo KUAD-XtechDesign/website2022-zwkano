@@ -85,7 +85,7 @@ header .inner {
   display: flex;
   justify-content: space-between;
   padding: 15px 20px;
-  box-shadow: 0px 0px 5px rgb(0, 0, 0);
+  box-shadow: 0px 0px 5px rgba(135, 255, 173, 0.737);
   border-radius: 4px;
   margin: 20px;
 }
@@ -131,7 +131,7 @@ header .inner {
   border-radius: 20px;
   right: 10px;
   top: 7px;
-  background-color: rgb(1, 0, 0);
+  background-color: rgb(250, 255, 248);
   z-index: 30;
   cursor: pointer;
   display: none;
@@ -198,7 +198,7 @@ body.contents_page {/* classにcontents_pageが指定されているbodyタグ *
 ================================================= */
 .top_eye_catch {
   height: 500px;
-  color: rgb(41, 219, 86);
+  color: rgb(83, 217, 117);
   font-weight: bold;
   background-image: url(../images/usagi.jpg);/* 背景画像 */
   background-size: cover;/* 背景画像のサイズ 要素いっぱいに表示 */
@@ -240,7 +240,7 @@ a.link_btn{
   font-weight: bold;
   display: block;
   margin: 0px 0;
-  border: 1px solid rgba(39, 57, 44, 0.255);
+  border: 1px solid rgba(38, 38, 38, 0.294);
   padding: 1px;
   text-align: center;
   border-radius: 0px;
@@ -251,7 +251,7 @@ a.link_btn:hover{/* classがlink_btnのaタグのマウスオーバー時 */
   opacity: 1;/* 半透明にならないように上書き */
   border-radius: 0;
   color: rgba(0, 0, 0, 0.253);
-  background-color: rgba(0, 0, 0, 0.021);
+  background-color: rgba(108, 201, 159, 0.531);
 }
 
 /* =================================================
